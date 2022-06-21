@@ -14,6 +14,7 @@ class Grafo:
 
     def crear_grafo(self):
         self.graph.add_nodes_from(self.vertices)
+        self.graph.w
         self.graph.add_weighted_edges_from(self.aristas)
 
     #1° if: comprueba si existe un camino entre el principe y princesa
